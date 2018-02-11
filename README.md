@@ -1,4 +1,4 @@
-# Plugin Name #
+# Living Resume #
 Contributors: cdanni
 Donate link: http://www.cristinadanni.com
 Tags: resume, portfolio
