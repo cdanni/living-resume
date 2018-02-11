@@ -1,0 +1,27 @@
+#adminmenu #menu-posts-lr_resume .wp-menu-image:before,
+i.mce-i-fa-briefcase:before {
+	content: "\f0b1"; 
+	font-family: 'FontAwesome' !important;
+}
+
+i.mce-i-fa-file-text:before {
+	content: "\f15c"; 
+	font-family: 'FontAwesome' !important;
+}
+
+.tb-sorter-container ul {
+	width: 200px !important;
+}
+
+.post-type-lr_project .mce-lr-resume,
+.post-type-lr_resume .mce-lr-resume,
+.post-type-lr_endorsement .mce-lr-resume,
+.post-type-lr_project .mce-lr-endorse,
+.post-type-lr_resume .mce-lr-endorse,
+.post-type-lr_endorsement .mce-lr-endorse {
+	display: none;
+}
+
+.wp-admin .cmb2-id-submitted-post-title span.cmb2-metabox-description {
+	display: block;
+}

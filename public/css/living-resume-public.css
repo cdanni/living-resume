@@ -1,0 +1,119 @@
+#primary.living-resume .lr-left { clear:both; float: left; display: inline-block; }
+#primary.living-resume .lr-right { float: right; display: inline-block; }
+#primary.living-resume .lr-clear { clear: both; }
+#primary.living-resume .lr-center { text-align: center; }
+#primary.living-resume .lr-justify { text-align: justify; }
+#primary.living-resume .lr-bolder { font-weight: bolder; }
+
+.single-lr_resume .living-resume h2 { border-top: 1px solid #ddd; padding-top: 0.5em; }
+
+#primary.living-resume .job-details:nth-child(n+2), 
+#primary.living-resume .degree-details:nth-child(n+2) { margin-top: 1.0em; }
+
+#primary.living-resume .lr-description { margin-top: 1.5em; display:inline-block; clear: both; }
+#primary.living-resume .lr-description ul, 
+#primary.living-resume .projects ul,
+#primary.living-resume .endorsements ul,
+#primary.living-resume .project-description ul, 
+#primary.living-resume .project-list ul { margin-left: 1.5em; }
+
+#primary.living-resume ul .list-inline { display: inline; }
+#primary.living-resume ul li.list-inline:nth-child(n+2) { margin-left: 1.0em; }
+
+#primary.living-resume .project-images { text-align: center; }
+#primary.living-resume .project-image { display: inline-block; vertical-align: top; }
+#primary.living-resume .project-image { margin: 1.0em; }
+
+#_living_resume_endorsement_metabox .button-primary {
+	margin-top: 1.5em;
+}
+
+#primary.living-resume .lightbox {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.8);
+}
+
+#primary.living-resume .lightbox-image {
+	display: block;
+	margin: 10em auto 0;
+	max-width: 80%; max-height: 80%;
+	overflow: auto;
+	position: relative;
+}
+
+#primary.living-resume .lightbox img {
+	max-width: 100%;
+	max-height: 80%;
+	object-fit: contain;
+	text-align: center;
+	/*margin-top: 6em;*/
+}
+#primary.living-resume .lightbox .description { 
+	display: block;
+	background: #efefef;
+	text-align: left;
+	padding: .5em;
+	position: relative;
+}
+
+#primary.living-resume .lightbox:target {
+	outline: none;
+	display: block;
+}
+
+#primary.living-resume .lightbox .previous {
+	position: absolute;
+	left: .4em;
+	top: 3em;
+	width: 40px;
+}
+#primary.living-resume .lightbox i.fa-chevron-left:before {
+	font-family: 'FontAwesome' !important;
+	content: "\f053";
+	color: #efefef;
+	font-style: normal;
+}
+#primary.living-resume .lightbox .exit {
+	position: absolute;
+	top: 1em;
+	right: .4em;
+	width: 40px;
+}
+#primary.living-resume .lightbox i.fa-times:before {
+	font-family: 'FontAwesome' !important;
+	content: "\f00d";
+	color: #efefef;
+	font-style: normal;
+}
+#primary.living-resume .lightbox .next {
+	position: absolute;
+	right: .4em;
+	top: 3em;
+	width: 40px;
+}
+#primary.living-resume .lightbox i.fa-chevron-right:before {
+	font-family: 'FontAwesome' !important;
+	content: "\f054";
+	color: #efefef;
+	font-style: normal;
+}
+
+#cmb2-metabox-_living_resume_endorsement_metabox .cmb-th {
+	padding: .5em 0 0;
+}
+#cmb2-metabox-_living_resume_endorsement_metabox .cmb-td {
+	clear: both;
+	float: none;
+	padding: 0 0 .7em;
+}
+
+#cmb2-metabox-_living_resume_endorsement_metabox .cmb-th label {
+	margin: 0;
+}
